@@ -47,14 +47,14 @@ int main(int argc, char *argv[]) {
     if (argc >= 2) {
         input = fopen(argv[1], "r");
         if (input == NULL) {
-            fprintf(stderr, "error: cannot open file '%s'\n", argv[1]);
+            fprintf(stderr, "reverse: cannot open file '%s'\n", argv[1]);
             exit(1);
         }
     }
 
     if (argc == 3) {
         if (strcmp(argv[1], argv[2]) == 0) {
-            fprintf(stderr, "Input and output file must differ\n");
+            fprintf(stderr, "reverse: input and output file must differ\n");
             exit(1);
         }
         output = fopen(argv[2], "w");
@@ -72,3 +72,4 @@ int main(int argc, char *argv[]) {
 
     return 0;
 }
+
