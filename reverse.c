@@ -1,3 +1,7 @@
+//Diego Alejandro Castañeda Ossa  -  1036656438
+//Jose Carlos Ortiz Padilla  -  1003059949
+
+
 #include <stdio.h>      // Necesario para operaciones de entrada/salida estándar como printf y fprintf
 #include <stdlib.h>     // Necesario para funciones de asignación de memoria (malloc, realloc) y para exit()
 #include <string.h>     // Necesario para funciones de manipulación de cadenas como strcmp y strdup
